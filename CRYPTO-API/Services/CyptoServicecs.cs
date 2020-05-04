@@ -18,6 +18,8 @@ namespace CRYPTO_API.Services
             var queryString = HttpUtility.ParseQueryString(string.Empty);
             queryString["id"] = "1";
 
+
+
             URL.Query = queryString.ToString();
 
             var client = new WebClient();
